@@ -6,7 +6,7 @@
   "version": "1.0",
   "homepage_url": "https://github.com/racosa/i-am-not-a-human",
   "icons": {
-    "48": "icons/person-48.png"
+    "48": "icons/bot-48.png"
   },
 
   "permissions": [
@@ -18,7 +18,7 @@
   },
 
   "browser_action": {
-    "default_icon": "icons/person-32.png",
+    "default_icon": "icons/bot-32.png",
     "default_title": "I am not a human"
   }
 
