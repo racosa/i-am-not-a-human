@@ -1,0 +1,25 @@
+{
+
+  "description": "This extension requests the active tab as if you were a bot. You may find out that robots can have more rights than you.",
+  "manifest_version": 2,
+  "name": "I am not a human",
+  "version": "1.0",
+  "homepage_url": "https://github.com/racosa/i-am-not-a-human",
+  "icons": {
+    "48": "icons/person-48.png"
+  },
+
+  "permissions": [
+    "webRequest", "webRequestBlocking", "<all_urls>"
+  ],
+
+  "background": {
+    "scripts": ["background.js"]
+  },
+
+  "browser_action": {
+    "default_icon": "icons/person-32.png",
+    "default_title": "I am not a human"
+  }
+
+}
